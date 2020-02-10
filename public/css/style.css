@@ -8207,7 +8207,9 @@ h1, h2, h3, h4, h5,
   position: inherit;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top center; }
+  background-position: top center; 
+  /* z-index: -1; */
+}
   .hero-wrap .overlay {
     position: absolute;
     top: 0;
