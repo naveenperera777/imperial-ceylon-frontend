@@ -5,17 +5,21 @@ import './App.css';
 import Home from './Home/Home.js';
 import HowItWorks from './HowItWorks/Home.js';
 import Services from './Services/Home.js';
+import Footer from './Home/Footer.js';
+import Header from './Home/Nav.js';
 
 function App() {
   return (
     <Router>
       <Switch>
           <div className="App">
+            <Header />
             <ScrollToTop>                
                 <Route exact path="/"  component={Home} />
                 <Route path="/how-it-works"  component={HowItWorks} />
                 <Route path="/services"  component={Services} />
             </ScrollToTop>
+            <Footer />
           </div>
       </Switch>
     </Router>

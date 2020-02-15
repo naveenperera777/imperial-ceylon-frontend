@@ -9077,6 +9077,99 @@ textarea.form-control {
     .ftco-cover-1.overlay form .btn {
       border-color: transparent; }
 
+
+.site-section {
+padding: 2.5em 0; }
+@media (min-width: 768px) {
+  .site-section {
+    padding: 5em 0; } }
+.site-section.site-section-sm {
+padding: 4em 0; }
+          
+.site-section-cover {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+  .site-section-cover,
+  .site-section-cover .container {
+    position: relative;
+    z-index: 2; }
+  .site-section-cover,
+  .site-section-cover .container > .row {
+    height: calc(100vh - 196px);
+    min-height: 577px; }
+    @media (max-width: 991.98px) {
+      .site-section-cover,
+      .site-section-cover .container > .row {
+        height: calc(70vh - 196px);
+        min-height: 400px; } }
+  .site-section-cover.overlay {
+    position: relative; }
+    .site-section-cover.overlay:before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.3);
+      z-index: 1; }
+  .site-section-cover.inner-page,
+  .site-section-cover.inner-page .container > .row {
+    height: auto;
+    min-height: auto;
+    padding: 2em 0; }
+  .site-section-cover.img-bg-section {
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .site-section-cover h1 {
+    font-size: 3rem;
+    color: #fff;
+    line-height: 1; }
+    @media (max-width: 991.98px) {
+      .site-section-cover h1 {
+        font-size: 2rem; } }
+  .site-section-cover p {
+    font-size: 18px;
+    color: #fff; }
+
+.site-section {
+  padding: 7rem 0; }
+  @media (max-width: 991.98px) {
+    .site-section {
+      padding: 3rem 0; } }         
+
+      .service-1 {
+        text-align: center; }
+        .service-1 .service-1-icon {
+          background: #fff;
+          width: 90px;
+          height: 90px;
+          margin-bottom: 20px;
+          position: relative;
+          display: inline-block;
+          border: 4px solid #007bff;
+          border-radius: 50%; }
+          .service-1 .service-1-icon > span {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            font-size: 3rem; }
+        .service-1 .service-1-contents h3, .service-1 .service-1-contents p {
+          color: #fff; }
+        .service-1 .service-1-contents h3 {
+          margin-bottom: 10px;
+          font-size: 20px; }
+        .service-1.dark .service-1-contents h3, .service-1.dark .service-1-contents p {
+          color: #000; }
+        .service-1.dark .service-1-contents h3 {
+          margin-bottom: 10px;
+          font-size: 20px; }
+
 /*
 ################################################ END CSS ###################################
 */
