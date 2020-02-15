@@ -12,8 +12,9 @@ export default function NavBar(){
 
   <div class="collapse navbar-collapse" id="ftco-nav">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item active"><a class="nav-link">Home</a></li>
-      <Link className="nav-item" to="/how-it-works"><a class="nav-link">About</a></Link>
+      <Link className="nav-item" to="/"><a class="nav-link">Home</a></Link>
+      <Link className="nav-item" to="/how-it-works"><a class="nav-link">How It Works</a></Link>
+      <Link className="nav-item" to="/services"><a class="nav-link">Services</a></Link>
       <li class="nav-item"><a class="nav-link">Pricing</a></li>
       <li class="nav-item"><a class="nav-link">Our Vehicles</a></li>
       {/* <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li> */}

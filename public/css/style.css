@@ -9027,6 +9027,59 @@ textarea.form-control {
   /* opacity: 0; */
   /* visibility: hidden;  */
 }
+/*
+######################################### ADD CSS #########################################
+*/
+
+.ftco-cover-1 {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
+  .ftco-cover-1, .ftco-cover-1 .container > .row {
+    height: 100vh;
+    min-height: 900px; }
+  .ftco-cover-1.innerpage, .ftco-cover-1.innerpage .container > .row {
+    height: 90vh;
+    min-height: 700px; }
+  .ftco-cover-1 > .container {
+    position: relative; }
+  .ftco-cover-1.overlay {
+    position: relative; }
+    .ftco-cover-1.overlay:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      opacity: .5;
+      background: #000; }
+    .ftco-cover-1.overlay h1 {
+      color: #fff;
+      font-size: 3rem; }
+    .ftco-cover-1.overlay p {
+      color: #fff; }
+      .ftco-cover-1.overlay p a {
+        color: #fff;
+        text-decoration: underline;
+        font-weight: 700; }
+        .ftco-cover-1.overlay p a:hover {
+          text-decoration: none; }
+    .ftco-cover-1.overlay form .form-control,
+    .ftco-cover-1.overlay form .btn {
+      height: 55px;
+      border-radius: 4px; }
+    .ftco-cover-1.overlay form .form-control {
+      padding-left: 20px;
+      padding-right: 20px;
+      border-color: transparent;
+      margin-right: 10px; }
+    .ftco-cover-1.overlay form .btn {
+      border-color: transparent; }
+
+/*
+################################################ END CSS ###################################
+*/
 
 .bg-primary {
   background: #fc983c !important; }
