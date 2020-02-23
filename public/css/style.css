@@ -9024,8 +9024,8 @@ textarea.form-control {
       padding-bottom: 5em; } }
 
 .ftco-animate {
-  /* opacity: 0; */
-  /* visibility: hidden;  */
+  /* opacity: 0; 
+   visibility: hidden;  */
 }
 /*
 ######################################### ADD CSS #########################################
@@ -9169,6 +9169,186 @@ padding: 4em 0; }
         .service-1.dark .service-1-contents h3 {
           margin-bottom: 10px;
           font-size: 20px; }
+
+
+         
+/*
+################################## ADD CARS ##################
+*/
+.section-padding {
+	padding: 100px 0;
+}
+
+#choose-car.section-padding {
+	padding-bottom: 70px;
+}
+
+#service-area.section-padding {
+	padding-bottom: 50px;
+}
+
+.car-list-content .col-lg-6 .single-car-wrap {
+	margin-bottom: 30px;
+}
+
+.car-list-content .col-lg-6:last-child .single-car-wrap {
+	margin-bottom: 0;
+}
+
+
+.single-car-wrap {
+	-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+	color: #7f7f7f;
+	line-height: 1.8;
+	margin-bottom: 50px;
+}
+
+.single-car-wrap:last-child {
+	margin-bottom: 0;
+}
+
+.car-list-content .col-lg-6 .single-car-wrap {
+	margin-bottom: 30px;
+}
+
+.car-list-content .col-lg-6:last-child .single-car-wrap {
+	margin-bottom: 0;
+}
+
+.car-list-thumb {
+	background-size: cover;
+	background-position: center center;
+	height: 300px;
+	max-height: 100%;
+}
+
+.car-thumb-1 {
+	background-image: url(../images/f8.jpg);
+}
+
+.car-thumb-2 {
+	background-image: url(../images/rrauto.jpg);
+}
+
+.car-thumb-3 {
+	background-image: url(../images/lurus.jpg);
+}
+
+.car-thumb-4 {
+	background-image: url(../images/jeep.jpg);
+}
+
+.car-list-info {
+	padding-right: 10px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.car-list-info h2 a {
+	color: #22252c;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.car-list-info h4 {
+	border-bottom: 1px solid #ddd;
+	color: #000000;
+	font-size: 15px;
+	margin-bottom: 12px;
+	margin-top: 5px;
+	padding-bottom: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.car-list-info.without-bar {
+	margin: 0;
+	padding: 25px;
+}
+
+.car-list-info.without-bar .rating {
+	right: 25px;
+	top: 40px;
+}
+
+.car-info-list {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-flow: row nowrap;
+	flex-flow: row nowrap;
+	font-size: 13px;
+	font-weight: 600;
+	margin: 10px 0;
+	text-align: center;
+}
+
+.car-info-list li {
+	border: 1px solid #ccc;
+	-ms-flex-preferred-size: 100%;
+	flex-basis: 100%;
+	padding: 3px;
+  position: relative;
+  display: inline-block;
+}
+
+.car-info-list li::before {
+	color: #33ff00;
+	content: "\f14a";
+	font-family: FontAwesome;
+	margin-right: 5px;
+}
+
+.car-info-list li + li {
+	border-left: 0;
+}
+
+.rating {
+	color: #000000;
+	font-size: 13px;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+}
+
+.rating i:hover {
+	cursor: pointer;
+}
+
+.rating i.unmark:hover {
+	color: #ffd000;
+}
+
+.rating i.unmark {
+	color: #ddd;
+}
+
+.review-star .rating {
+	font-size: 20px;
+	position: inherit;
+}
+
+.rent-btn {
+	background-color: #000;
+	color: #fff;
+	display: inline-block;
+	font-weight: 600;
+	margin-top: 5px;
+	padding: 8px 30px;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+
+.rent-btn:hover {
+	background-color: #ffd000;
+	color: #fff;
+}
+          
+
+
 
 /*
 ################################################ END CSS ###################################
