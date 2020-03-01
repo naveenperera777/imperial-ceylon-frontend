@@ -8,6 +8,7 @@ import Services from './Services/Home.js';
 import Footer from './Home/Footer.js';
 import Header from './Home/Nav.js';
 import Cars from './Cars/Home.js';
+import SingleCar from './Cars/Car.js';
 
 function App() {
   return (
@@ -19,7 +20,9 @@ function App() {
                 <Route exact path="/"  component={Home} />
                 <Route path="/how-it-works"  component={HowItWorks} />
                 <Route path="/services"  component={Services} />
-                <Route path="/cars"  component={Cars} />
+                <Route exact path="/cars"  component={Cars} />
+                <Route path="/cars/ferrari"  component={SingleCar} />
+
             </ScrollToTop>
             {/* <Footer /> */}
           </div>

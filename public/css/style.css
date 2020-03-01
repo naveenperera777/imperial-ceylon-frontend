@@ -3435,6 +3435,7 @@ input[type="button"].btn-block {
 
 .tab-content > .active {
   display: block; }
+  
 
 .navbar {
   position: relative;
@@ -7789,7 +7790,7 @@ button.bg-dark:focus {
   text-align: left !important; }
 
 .text-right {
-  text-align: right !important; }
+  text-align: left !important; }
 
 .text-center {
   text-align: center !important; }
@@ -8655,6 +8656,21 @@ h1, h2, h3, h4, h5,
     display: block;
     color: #000000; }
 
+    .ftco-car-details .services .media-body .icon span {
+      color: #B5893C; }
+
+      .services .icon {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        border: 6px double rgba(255, 0, 0, 0.05);
+        margin: 0 auto;
+        margin-bottom: 20px; }
+        .services .icon span {
+          font-size: 40px;
+          color: #1089ff; }
+           
+
 .car-details .img {
   width: 100%;
   height: 600px;
@@ -8690,6 +8706,7 @@ h1, h2, h3, h4, h5,
     margin: 0;
     padding: 0; }
     .pills .features li {
+      text-align: left;
       list-style: none; }
       .pills .features li span {
         font-size: 20px;
@@ -8720,14 +8737,15 @@ h1, h2, h3, h4, h5,
         margin-bottom: 10px; }
         .pills .review .desc h4 span {
           width: 49%;
-          display: inline-block; }
+          display: inline-block;
+         }
           .pills .review .desc h4 span:first-child {
             font-size: 16px; }
           .pills .review .desc h4 span:last-child {
             font-size: 13px;
             color: #b3b3b3; }
       .pills .review .desc .star {
-        width: 100%; }
+        width: 30%; }
         .pills .review .desc .star span {
           width: 49%;
           display: inline-block; }

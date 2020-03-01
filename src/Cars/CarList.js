@@ -1,5 +1,7 @@
 import React from 'react';
 import 'font-awesome/css/font-awesome.min.css';
+import { Link } from "react-router-dom";
+
 export default function CarList(){
     return(
         <div>       
@@ -30,7 +32,9 @@ export default function CarList(){
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                         </p>
-                                        <a href="#" class="rent-btn">Book It</a>
+                                        <Link className="nav-item" to="/cars/ferrari"><a class="rent-btn">Home</a></Link>
+
+                                        {/* <a href="#" class="rent-btn">Book It</a> */}
                                     </div>
                                 </div>
                             </div>
